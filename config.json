@@ -1,5 +1,22 @@
 {
-	"ip":"yourip.aternos.me",
-	"port": "25565",
-	"name": "afk_bot"
+  "host": "par890-eBNR.aternos.me",
+  "port": 34320,
+  "username": "PKbhai",
+  "version": false,
+  "auth": "offline",
+
+  "afk": {
+    "enabled": true,
+    "actions": [
+      "jump",
+      "look",
+      "swingArm"
+    ],
+    "delay": 30000
+  },
+
+  "reconnect": {
+    "enabled": true,
+    "delay": 5000
+  }
 }
